@@ -13,7 +13,7 @@
   $port = "3308";
   $db = "testing_database";
   $username = "root";
-  $password = "Seanghor@123";
+  $password = "";
 
   try{
    $pdo = new PDO("mysql: host=$host;port=$port;dbname=$db", $username, $password);
